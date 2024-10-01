@@ -43,10 +43,9 @@
                     <span></span>
                 </div>
                 <div class="btn">
-                    <button id="btn__letter">
+                    <button id="btn__letter" onclick="audio.play();">
                         Ấn vào đây nè em iu
                         <i class="fa-regular fa-envelope"></i>
-                        <audio id="audioID" loop> <source src="./images/music.mp3"  type="audio/mp3"></audio>
                     </button>
                 </div>
             </div>
@@ -143,6 +142,10 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    const audio = new Audio();
+    audio.src = "./images/music.mp3";
+</script>
 <script>
     let datetxt = "02-10-2006";
     let datatxtletter = "Chúc em iu tuổi mới có thật nhìu sức khỏe, học thật giỏi và luôn bên anh. Cảm ơn em vì đã luôn bên cạnh anh hơn 4 năm qua dù có đôi lúc anh đã làm em buồn.  Anh luôn hy vọng mình sẽ luôn cùng nhau đón thật nhiều sinh nhật như thế này. Chúc mừng sinh nhật em iuu💕";
